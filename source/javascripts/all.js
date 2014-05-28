@@ -3,3 +3,6 @@
 //= require vendor/_jquery.wordsearchgame.js
 //= require vendor/_jquery.ui.touch-punch.min.js
 //= require _wordsearchoptions.js
+
+
+

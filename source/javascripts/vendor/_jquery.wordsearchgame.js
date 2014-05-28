@@ -81,6 +81,7 @@
 //			
 //			
 //==============================================================================
+var score = 0;
 
 (function( $, undefined ) {
     
@@ -474,6 +475,13 @@ var Visualizer = {
 					 function () {
 						 $(w).css("background",'white')
 						 $(w).addClass('rf-foundword').animate({"opacity": 'show'},1000,"linear")
+                         alert("WORD FOUND!")
+                         score++;
+
+                         if ( score > 0 ){
+                         alert("YOU WON!");
+                        };
+
 					 });
     },
 
@@ -1308,6 +1316,8 @@ var GameWidgetHelper = {
 	}
 	
 }
+
+
 
 
 })(jQuery);

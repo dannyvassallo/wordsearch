@@ -5,4 +5,7 @@
       //attach the game to a div
       $("#theGrid").wordsearchwidget({"wordlist" : words,"gridsize" : 15});
 
+
     });
+
+
