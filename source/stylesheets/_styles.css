@@ -1,0 +1,22 @@
+body{
+background-image: url('http://subtlepatterns.com/patterns/congruent_pentagon.png');
+background-repeat: repeat;
+}
+
+#rf-wordcontainer{
+display:none;	
+}
+
+#rf-tablegrid{
+background-color: transparent;
+border: none;
+}
+
+#rf-searchgamecontainer{
+position: absolute;
+margin: auto;
+left: 0;
+right: 0;
+width: 505px;
+height: 550px;
+}
